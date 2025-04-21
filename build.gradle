@@ -25,6 +25,8 @@ ext {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation "org.springframework.cloud:spring-cloud-starter-openfeign"
+	implementation "com.fasterxml.jackson.datatype:jackson-datatype-jdk8"
+	implementation "org.springframework.boot:spring-boot-starter-validation"
 
 	// Lombok
 	compileOnly 'org.projectlombok:lombok'
